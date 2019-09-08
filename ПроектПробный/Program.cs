@@ -14,6 +14,7 @@ namespace ПроектПробный
 			if (a == 10)
 			{
 				Console.WriteLine("Тобой выбрана верная дверь, кожевник");
+				Console.WriteLine("Ответ положительный");
 			}
 			for (int i = 0;i<a;i++)
 			{
