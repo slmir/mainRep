@@ -8,10 +8,18 @@ namespace ПроектПробный
 {
 	class Program
 	{
-		const int a = 10;
 		static void Main(string[] args)
 		{
-			for (int i = 0;i<a;i++)
+			int n = 0;
+			Console.Write("Русские вперед???: ");
+			string nn = Console.ReadLine();
+			if (nn == "да")
+			{
+				n = 30;
+			}
+			else
+				Console.WriteLine("Пендос");
+			for (int i = 0;i < n;i++)
 			{
 				Console.WriteLine("Русские вперед!!!");
 			}
