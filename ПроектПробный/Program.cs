@@ -11,6 +11,10 @@ namespace ПроектПробный
 		const int a = 10;
 		static void Main(string[] args)
 		{
+			if (a == 10)
+			{
+				Console.WriteLine("Тобой выбрана верная дверь, кожевник");
+			}
 			for (int i = 0;i<a;i++)
 			{
 				Console.WriteLine("Русские вперед!!!");
